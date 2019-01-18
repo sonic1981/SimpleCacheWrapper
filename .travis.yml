@@ -1,0 +1,8 @@
+language: csharp
+solution: SimpleCacheWrapper.sln
+before_install:
+  - sudo apt-get install nunit-console
+before_script:
+  - nuget restore SimpleCacheWrapper.sln
+after_script:
+  - nunit-console SimpleCacheWrapper.Test/bin/Release/SimpleCacheWrapper.Test.dll
