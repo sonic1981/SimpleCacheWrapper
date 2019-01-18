@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/sonic1981/SimpleCacheWrapper.svg?branch=master)](https://travis-ci.org/sonic1981/SimpleCacheWrapper)
+
 A simple in process memory cache that uses `ConcurrentDictionary` to store objects.
 
 Usage
